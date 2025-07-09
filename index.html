@@ -21,6 +21,7 @@
     </script>
 </head>
 <body class="bg-gray-50">
+    <!-- Top Social Links Bar -->
     <div class="bg-rssb-light-blue py-3">
         <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
             <div class="flex items-center space-x-1">
@@ -49,6 +50,8 @@
             </div>
         </div>
     </div>
+
+    <!-- Logo and Contact Info Bar -->
     <div class="bg-white py-6 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
             <div>
@@ -72,36 +75,42 @@
             </div>
         </div>
     </div>
+
+    <!-- Main Navigation -->
     <nav class="bg-rssb-blue">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex space-x-0">
-                <a href="#" class="relative px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">
+                <a href="#home" class="relative px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">
                     HOME
                     <div class="absolute bottom-0 left-0 right-0 h-1 bg-rssb-yellow"></div>
                 </a>
-                <a href="#" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">SCHEMES</a>
-                <a href="#" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">INVESTMENT</a>
-                <a href="#" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">MANAGEMENT</a>
-                <a href="#" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">ABOUT</a>
-                <a href="#" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">CAREERS</a>
-                <a href="#" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">NEWS & EVENTS</a>
+                <a href="#schemes" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">SCHEMES</a>
+                <a href="investment.html" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">INVESTMENT</a>
+                <a href="management.html" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">MANAGEMENT</a>
+                <a href="about.html" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">ABOUT</a>
+                <a href="careers.html" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">CAREERS</a>
+                <a href="news-events.html" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">NEWS & EVENTS</a>
             </div>
         </div>
     </nav>
-    <section class="relative bg-gray-100 overflow-hidden">
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gray-100 overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 py-16">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div class="space-y-6">
-                    <h1 class="text-5xl font-bold leading-tight ">
-                        <span class="text-rssb-yellow">Member First</span>
-                        <span class="text-gray-800">, data-driven, evidence-based and high performing organization.</span>
-                    </h1>
-                    
-                    <div class="text-rssb-blue font-semibold text-lg">
-                        MEMBERS FIRST
+                    <div id="hero-content">
+                        <h1 class="text-5xl font-bold leading-tight">
+                            <span class="text-rssb-yellow">Member First</span>
+                            <span class="text-gray-800">, data-driven, evidence-based and high performing organization.</span>
+                        </h1>
+                        
+                        <div class="text-rssb-blue font-semibold text-lg mt-6">
+                            MEMBERS FIRST
+                        </div>
                     </div>
                     
-                    <button class="bg-rssb-blue text-white px-8 py-3 rounded font-semibold hover:bg-blue-800 transition-colors">
+                    <button class="bg-rssb-blue text-white px-8 py-3 rounded font-semibold hover:bg-white hover:text-rssb-blue hover:border-rssb-blue hover:border-2 transition-all duration-300">
                         Learn More
                     </button>
                 </div>
@@ -128,6 +137,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Values Section -->
     <section class="bg-white py-12">
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid grid-cols-4 gap-8">
@@ -170,37 +181,132 @@
         </div>
     </section>
 
+    <!-- Schemes Section -->
+    <section id="schemes" class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Our Schemes</h2>
+                <p class="text-gray-600 text-lg">Comprehensive social security schemes designed for your future</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Pension Scheme Card -->
+                <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform hover:scale-105 transition-all duration-300">
+                    <div class="absolute inset-0 bg-rssb-dark-blue opacity-0 group-hover:opacity-75 transition-opacity duration-300"></div>
+                    <div class="relative z-10 p-6">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-rssb-light-blue rounded-full flex items-center justify-center group-hover:bg-white transition-colors">
+                            <svg class="w-8 h-8 text-rssb-blue" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4zM18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-rssb-yellow transition-colors text-center mb-3">Pension Scheme</h3>
+                        <p class="text-gray-600 group-hover:text-white transition-colors text-center text-sm">Secure your retirement with our comprehensive pension benefits and long-term financial security.</p>
+                    </div>
+                </div>
+
+                <!-- Medical Scheme Card -->
+                <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform hover:scale-105 transition-all duration-300">
+                    <div class="absolute inset-0 bg-rssb-dark-blue opacity-0 group-hover:opacity-75 transition-opacity duration-300"></div>
+                    <div class="relative z-10 p-6">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-rssb-light-blue rounded-full flex items-center justify-center group-hover:bg-white transition-colors">
+                            <svg class="w-8 h-8 text-rssb-blue" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h4a1 1 0 010 2H6.414l2.293 2.293a1 1 0 01-1.414 1.414L5 6.414V8a1 1 0 01-2 0V4zm9 1a1 1 0 010-2h4a1 1 0 011 1v4a1 1 0 01-2 0V6.414l-2.293 2.293a1 1 0 11-1.414-1.414L13.586 5H12zm-9 7a1 1 0 012 0v1.586l2.293-2.293a1 1 0 111.414 1.414L6.414 15H8a1 1 0 010 2H4a1 1 0 01-1-1v-4zm13-1a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 010-2h1.586l-2.293-2.293a1 1 0 111.414-1.414L15.586 13H14a1 1 0 01-1-1z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-rssb-yellow transition-colors text-center mb-3">Medical Scheme</h3>
+                        <p class="text-gray-600 group-hover:text-white transition-colors text-center text-sm">Comprehensive healthcare coverage for you and your family with quality medical services.</p>
+                    </div>
+                </div>
+
+                <!-- Occupational Hazards Card -->
+                <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform hover:scale-105 transition-all duration-300">
+                    <div class="absolute inset-0 bg-rssb-dark-blue opacity-0 group-hover:opacity-75 transition-opacity duration-300"></div>
+                    <div class="relative z-10 p-6">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-rssb-light-blue rounded-full flex items-center justify-center group-hover:bg-white transition-colors">
+                            <svg class="w-8 h-8 text-rssb-blue" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h10a1 1 0 01.8 1.6L14.25 8l2.55 3.4A1 1 0 0116 13H6a1 1 0 00-1 1v3a1 1 0 11-2 0V6z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-rssb-yellow transition-colors text-center mb-3">Occupational Hazards</h3>
+                        <p class="text-gray-600 group-hover:text-white transition-colors text-center text-sm">Protection against workplace injuries and occupational diseases with comprehensive coverage.</p>
+                    </div>
+                </div>
+
+                <!-- Maternity Leave Card -->
+                <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform hover:scale-105 transition-all duration-300">
+                    <div class="absolute inset-0 bg-rssb-dark-blue opacity-0 group-hover:opacity-75 transition-opacity duration-300"></div>
+                    <div class="relative z-10 p-6">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-rssb-light-blue rounded-full flex items-center justify-center group-hover:bg-white transition-colors">
+                            <svg class="w-8 h-8 text-rssb-blue" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
+                                <path fill-rule="evenodd" d="M4 5a2 2 0 012-2h8a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 1a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-rssb-yellow transition-colors text-center mb-3">Maternity Leave</h3>
+                        <p class="text-gray-600 group-hover:text-white transition-colors text-center text-sm">Support for new mothers with maternity benefits and family planning assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script>
         let currentSlide = 0;
         const slides = document.querySelectorAll('.carousel-item');
-        const indicators = document.querySelectorAll('.carousel-indicator');
+        const heroContent = document.getElementById('hero-content');
+        
+        // Content for each slide
+        const slideContent = [
+            {
+                title: '<span class="text-rssb-yellow">Member First</span><span class="text-gray-800">, data-driven, evidence-based and high performing organization.</span>',
+                subtitle: 'MEMBERS FIRST'
+            },
+            {
+                title: '<span class="text-rssb-yellow">Quality Healthcare</span><span class="text-gray-800"> for all our members and their families.</span>',
+                subtitle: 'HEALTHCARE EXCELLENCE'
+            },
+            {
+                title: '<span class="text-rssb-yellow">Workplace Safety</span><span class="text-gray-800"> and occupational hazard protection.</span>',
+                subtitle: 'SAFETY FIRST'
+            },
+            {
+                title: '<span class="text-rssb-yellow">Family Support</span><span class="text-gray-800"> through comprehensive maternity benefits.</span>',
+                subtitle: 'FAMILY CARE'
+            }
+        ];
         
         function showSlide(index) {
+            // Hide all slides
             slides.forEach(slide => {
                 slide.classList.remove('active');
                 slide.style.opacity = '0';
             });
-            indicators.forEach(indicator => {
-                indicator.classList.remove('active');
-                indicator.style.opacity = '0.5';
-            });
+            
+            // Show current slide
             slides[index].classList.add('active');
             slides[index].style.opacity = '1';
-            indicators[index].classList.add('active');
-            indicators[index].style.opacity = '1';
+            
+            // Update content
+            heroContent.innerHTML = `
+                <h1 class="text-5xl font-bold leading-tight">
+                    ${slideContent[index].title}
+                </h1>
+                
+                <div class="text-rssb-blue font-semibold text-lg mt-6">
+                    ${slideContent[index].subtitle}
+                </div>
+            `;
         }
         
         function nextSlide() {
             currentSlide = (currentSlide + 1) % slides.length;
             showSlide(currentSlide);
         }
+        
+        // Auto-advance slides every 4 seconds
         setInterval(nextSlide, 4000);
-        indicators.forEach((indicator, index) => {
-            indicator.addEventListener('click', () => {
-                currentSlide = index;
-                showSlide(currentSlide);
-            });
-        });
+        
+        // Initialize first slide
         showSlide(0);
     </script>
 </body>

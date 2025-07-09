@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment - RSSB</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'rssb-blue': '#3B4B9C',
+                        'rssb-light-blue': '#EFF8FE',
+                        'rssb-yellow': '#F59E0B',
+                        'rssb-dark-blue': '#1E3A8A'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Top Social Links Bar -->
+    <div class="bg-rssb-light-blue py-3">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center space-x-1">
+                <a href="#" class="p-2 border-r border-gray-300 hover:bg-blue-100 transition-colors">
+                    <img src="./Images/icons8-linkedin-50.png" alt="LinkedIn" class="w-6 h-6">
+                </a>
+                <a href="#" class="p-2 border-r border-gray-300 hover:bg-blue-100 transition-colors">
+                    <img src="./Images/icons8-twitter-bird-50.png" alt="Twitter" class="w-6 h-6">
+                </a>
+                <a href="#" class="p-2 border-r border-gray-300 hover:bg-blue-100 transition-colors">
+                    <img src="./Images/icons8-facebook-50.png" alt="Facebook" class="w-6 h-6">
+                </a>
+                <a href="#" class="p-2 border-r border-gray-300 hover:bg-blue-100 transition-colors">
+                    <img src="./Images/icons8-youtube-50.png" alt="YouTube" class="w-6 h-6">
+                </a>
+                <a href="#" class="p-2 hover:bg-blue-100 transition-colors">
+                    <img src="./Images/icons8-instagram-50.png" alt="Instagram" class="w-6 h-6">
+                </a>
+            </div>
+            <div class="flex items-center space-x-6 text-sm text-gray-700">
+                <div class="flex items-center space-x-1 cursor-pointer hover:text-rssb-blue transition-colors">
+                    <span>Online Services</span>
+                    <img src="./Images/icons8-down-arrow-50.png" alt="dropdown" class="w-4 h-4">
+                </div>
+                <a href="#" class="hover:text-rssb-blue transition-colors">Publications</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logo and Contact Info Bar -->
+    <div class="bg-white py-6 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <div>
+                <img src="./Images/image.png" alt="RSSB Logo" class="h-16">
+            </div>
+            <div class="flex items-center space-x-8">
+                <div class="flex items-center space-x-3">
+                    <img src="./Images/icons8-phone-50.png" alt="Phone" class="w-10 h-10">
+                    <div>
+                        <div class="text-rssb-blue font-bold text-lg">4044</div>
+                        <div class="text-gray-600 text-sm">Toll free lines</div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <img src="./Images/icons8-mail-50.png" alt="Email" class="w-10 h-10">
+                    <div>
+                        <div class="text-rssb-blue font-bold">info@rssb.rw</div>
+                        <div class="text-gray-600 text-sm">Reach to us</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="bg-rssb-blue">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex space-x-0">
+                <a href="index.html" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">HOME</a>
+                <a href="index.html#schemes" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">SCHEMES</a>
+                <a href="investment.html" class="relative px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">
+                    INVESTMENT
+                    <div class="absolute bottom-0 left-0 right-0 h-1 bg-rssb-yellow"></div>
+                </a>
+                <a href="management.html" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">MANAGEMENT</a>
+                <a href="about.html" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">ABOUT</a>
+                <a href="careers.html" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">CAREERS</a>
+                <a href="news-events.html" class="px-6 py-4 text-white font-medium hover:bg-blue-800 transition-colors">NEWS & EVENTS</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Investment Hero Section -->
+    <section class="relative bg-cover bg-center bg-no-repeat" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Images/public.png');">
+        <div class="max-w-7xl mx-auto px-4 py-32">
+            <div class="text-center text-white">
+                <h1 class="text-6xl font-bold mb-6">
+                    RSSB is the largest <span class="text-rssb-yellow">investment</span> fund in Rwanda
+                </h1>
+                <p class="text-xl mb-8 max-w-3xl mx-auto">
+                    We manage and invest social security contributions to ensure sustainable returns and long-term financial security for our members.
+                </p>
+                <button class="bg-rssb-blue text-white px-8 py-3 rounded font-semibold hover:bg-white hover:text-rssb-blue hover:border-rssb-blue hover:border-2 transition-all duration-300">
+                    Learn About Our Investments
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Content Section -->
+    <section class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-rssb-light-blue rounded-full flex items-center justify-center">
+                        <svg class="w-10 h-10 text-rssb-blue" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zM14 6a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2h10zM4 8a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Portfolio Management</h3>
+                    <p class="text-gray-600">Strategic investment portfolio management to maximize returns while minimizing risks for sustainable growth.</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-rssb-light-blue rounded-full flex items-center justify-center">
+                        <svg class="w-10 h-10 text-rssb-blue" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Risk Management</h3>
+                    <p class="text-gray-600">Comprehensive risk assessment and management strategies to protect member contributions and ensure stable returns.</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-rssb-light-blue rounded-full flex items-center justify-center">
+                        <svg class="w-10 h-10 text-rssb-blue" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Performance Analytics</h3>
+                    <p class="text-gray-600">Data-driven investment decisions backed by comprehensive performance analytics and market research.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
